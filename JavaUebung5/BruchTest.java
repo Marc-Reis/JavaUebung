@@ -35,7 +35,7 @@ public class BruchTest {
 
 
         int w = 5;                  // Bei Primitiven wird der Wert nur Kopiert
-        int y = w;                  //
+        int y = w;                  // das gleiche für w
 
         System.out.println(w +"  "+ y); // 5 und 5 - beide haben den Wert 5
 
