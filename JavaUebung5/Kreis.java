@@ -10,12 +10,14 @@ public class Kreis {
     // --------- Hier kommen die Attribute der Klasse (Datenelement)
 
     double radius;
+    static int zaehler; 
 
     // --------- Hier kommen die Konstruktoren ---------
 
     public Kreis(){
         setRadius(0);
         // radius = 0; ging auch, aber wenn man get/set hat, dann besser diese nutzen!
+        zaehler++;
     }
 
     // --------- Hier kommen die Methoden (auch get/set) ---------

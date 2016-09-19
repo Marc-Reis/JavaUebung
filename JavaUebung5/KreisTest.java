@@ -26,6 +26,8 @@ public class KreisTest {
 
         makeKreistabelle();
 
+        System.out.println( "Es wurden: " + Kreis.zaehler + " Kreis Objekte erzeugt.");
+
     }
 
 
